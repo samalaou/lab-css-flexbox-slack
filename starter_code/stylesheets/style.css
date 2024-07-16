@@ -217,3 +217,63 @@ footer div {
     flex-direction: row;
   }
   
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    header {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+    }
+  
+    .header-div {
+      width: 50%;
+      text-align: left;
+    }
+  
+    .header-div h1 {
+      font-size: 1.5rem; 
+    }
+  
+    .button-container {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    #google-button {
+      width: auto;
+      padding: 12px 20px;
+    }
+  
+    /* Logos section */
+    #logo-div {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #logo-div img {
+      width: auto;
+      margin: 10px;
+    }
+  
+    /* Teams section */
+    section ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    section ul li {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+  
+    /* Footer */
+    footer ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  
